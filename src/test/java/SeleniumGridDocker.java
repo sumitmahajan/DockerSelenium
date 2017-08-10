@@ -26,7 +26,7 @@ public class SeleniumGridDocker {
     @BeforeTest
     public void Driver() throws MalformedURLException {
 
-        String Browser ="Firefox";
+        String Browser ="Chrome";
 
         if (Browser.equals("Firefox")){
             DesiredCapabilities dcap = DesiredCapabilities.firefox();
